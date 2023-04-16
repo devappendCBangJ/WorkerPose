@@ -1,0 +1,56 @@
+{
+	"accuracy_logs": {
+		"KC": 0.7929824561403509,
+		"DTC": 0.7162907268170426,
+		"RFC": 0.7969924812030075,
+		"SVC": 0.7829573934837093
+	},
+	"con_mat_logs": {
+		"KC": [
+			[
+				1424,
+				125
+			],
+			[
+				288,
+				158
+			]
+		],
+		"DTC": [
+			[
+				1253,
+				296
+			],
+			[
+				270,
+				176
+			]
+		],
+		"RFC": [
+			[
+				1464,
+				85
+			],
+			[
+				320,
+				126
+			]
+		],
+		"SVC": [
+			[
+				1524,
+				25
+			],
+			[
+				408,
+				38
+			]
+		]
+	},
+	"classification_report_logs": {
+		"KC": "              precision    recall  f1-score   support\n\n           0       0.83      0.92      0.87      1549\n           1       0.56      0.35      0.43       446\n\n    accuracy                           0.79      1995\n   macro avg       0.70      0.64      0.65      1995\nweighted avg       0.77      0.79      0.78      1995\n",
+		"DTC": "              precision    recall  f1-score   support\n\n           0       0.82      0.81      0.82      1549\n           1       0.37      0.39      0.38       446\n\n    accuracy                           0.72      1995\n   macro avg       0.60      0.60      0.60      1995\nweighted avg       0.72      0.72      0.72      1995\n",
+		"RFC": "              precision    recall  f1-score   support\n\n           0       0.82      0.95      0.88      1549\n           1       0.60      0.28      0.38       446\n\n    accuracy                           0.80      1995\n   macro avg       0.71      0.61      0.63      1995\nweighted avg       0.77      0.80      0.77      1995\n",
+		"SVC": "              precision    recall  f1-score   support\n\n           0       0.79      0.98      0.88      1549\n           1       0.60      0.09      0.15       446\n\n    accuracy                           0.78      1995\n   macro avg       0.70      0.53      0.51      1995\nweighted avg       0.75      0.78      0.71      1995\n"
+	}
+}

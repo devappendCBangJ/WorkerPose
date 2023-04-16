@@ -1,0 +1,8 @@
+{
+	".json": {
+		"source_img": "C:\\Users\\Bang\\JupyterProjects\\ComputerVision\\Skeleton\\dataset\\new_data\\KakaoTalk_20230111_223144861.jpg",
+		"classes": "210011",
+		"score_pos": "4121",
+		"score_owas": "2"
+	}
+}
